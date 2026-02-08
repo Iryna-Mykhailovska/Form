@@ -1,0 +1,148 @@
+@import url('./vars.css');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+html,
+body {
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    border-bottom: 1px solid #828282;
+    padding: 28px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #828282;
+    transition: all 0.3s;
+}
+
+.menu__link:hover {
+    color: #070707;
+}
+
+.title {
+    font-size: 1.4rem;
+    margin: 12px 0 50px;
+    color: rgb(51, 75, 110);
+}
+
+.form {
+    border: 1px solid #8c41a5;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 6px;
+    background: linear-gradient(#73226e, #a81d22);
+
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #fff;
+    letter-spacing: 0.04em;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form__label,
+span {
+    display: block;
+    margin-bottom: 8px;
+    color: #D8E2EA;
+    width: 40%;
+}
+
+.form__input,
+.form__select,
+.form__message {
+    width: 60%;
+    border: 1px solid #FFDDFF;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.gender,
+.age,
+.pol {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+}
+
+.gender__item {
+    display: flex;
+    gap: 0.5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.age__input {
+    width: 25%;
+}
+
+.form__message {
+    resize: none;
+}
+
+.pol {
+    margin-top: 10px;
+}
+
+.text__policy {
+    font-size: small;
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.form__button {
+    background-color: #c95a26;
+    padding: 10px 20px;
+    border: 1px solid #8c41a5;
+    border-radius: 6px;
+}
