@@ -74,13 +74,13 @@
                             </div>
                         </div>
                         <div class="row age">
-                            <label for="" class="form__label">Вік</label>
-                            <input type="text" class="form__input age__input" required>
+                            <label for="age" class="form__label">Вік</label>
+                            <input type="text" id="age" class="form__input age__input" required>
                         </div>
                     </fieldset>
                     <div class="row">
                         <label class="form__label" for="curs">Курс</label>
-                        <select name="curs" class="form__select" required>
+                        <select name="curs" id="curs" class="form__select" required>
                             <option value="" selected disabled>-=Виберіть курс=-</option>
                             <option value="fe">Front-End</option>
                             <option value="be">Back-End</option>
@@ -90,11 +90,11 @@
                     </div>
                     <div class="row">
                         <label for="adress" class="form__label">Повна адреса</label>
-                        <textarea placeholder="Країна, регіон, місто\селище, вулиця" class="form__message" rows="10"
+                        <textarea id="adress" placeholder="Країна, регіон, місто\селище, вулиця" class="form__message" rows="10"
                             cols="20" required></textarea>
                     </div>
                     <div class="row pol">
-                        <input type="checkbox" name="policy_check" id="" required>
+                        <input type="checkbox" name="policy_check" id="policy_check" required>
                         <label for="policy_check" class="form__checkbox">
                             <p class="text__policy">Я погоджуюсь з обробкою персональних даних</p>
                         </label>
